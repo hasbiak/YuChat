@@ -101,7 +101,7 @@ export default {
     return {
       url: process.env.VUE_APP_BASE_URL,
       message: null,
-      socket: io.connect(process.env.VUE_APP_BASE_URL, {
+      socket: io.connect(process.env.VUE_APP_BASE_SOCKET, {
         path: '/yuchat/socket.io'
       })
     }
