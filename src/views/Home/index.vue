@@ -33,7 +33,9 @@ export default {
     return {
       page: 1,
       messages: [],
-      socket: io(process.env.VUE_APP_BASE_URL),
+      socket: io.connect(process.env.VUE_APP_BASE_SOCKET, {
+        path: '/yuchat/socket.io'
+      }),
       infiniteId: +new Date()
     }
   },

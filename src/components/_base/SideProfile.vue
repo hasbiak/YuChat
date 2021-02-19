@@ -1,7 +1,11 @@
 <template>
   <b-sidebar id="sidebar-profile" shadow backdrop width="455px">
     <div class="text-center mb-3">
-      <b-avatar size="11rem" class="mb-1" :src="url + '/' + user.user_image">
+      <b-avatar
+        size="11rem"
+        class="mb-1"
+        :src="url + '/fileuploadsyuchat/' + user.user_image"
+      >
       </b-avatar>
       <h4 class="text-lowercase">@{{ user.user_name.split(' ')[0] }}</h4>
     </div>

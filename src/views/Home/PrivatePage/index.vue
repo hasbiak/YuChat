@@ -10,7 +10,7 @@
           <div class="contact-item">
             <div class="contact-image">
               <b-avatar
-                :src="url + '/' + value.user_image"
+                :src="url + '/fileuploadsyuchat/' + value.user_image"
                 class="no-image"
               ></b-avatar>
             </div>

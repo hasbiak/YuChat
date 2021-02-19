@@ -21,7 +21,7 @@
       <b-row>
         <b-col cols="2" class="align-self-center text-center">
           <b-avatar
-            :src="url + '/' + searchData.user_image"
+            :src="url + '/fileuploadsyuchat/' + searchData.user_image"
             class="no-image"
           ></b-avatar>
         </b-col>

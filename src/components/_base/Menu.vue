@@ -119,7 +119,7 @@
         <div class="contact-item my-4">
           <div class="contact-image mr-3">
             <b-avatar
-              :src="url + '/' + item.user_image"
+              :src="url + '/fileuploadsyuchat/' + item.user_image"
               class="no-image"
             ></b-avatar>
           </div>
@@ -177,7 +177,9 @@ export default {
       search: '',
       isDelete: false,
       isLogout: false,
-      socket: io(process.env.VUE_APP_BASE_URL),
+      socket: io.connect(process.env.VUE_APP_BASE_SOCKET, {
+        path: '/yuchat/socket.io'
+      }),
       menus: [
         {
           name: 'All',

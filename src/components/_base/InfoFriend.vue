@@ -4,7 +4,7 @@
       <b-avatar
         size="11rem"
         class="mb-1"
-        :src="url + '/' + infoFriend.user_image"
+        :src="url + '/fileuploadsyuchat/' + infoFriend.user_image"
       >
       </b-avatar>
       <h4 class="text-lowercase">{{ infoFriend.user_name }}</h4>

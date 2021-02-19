@@ -8,7 +8,7 @@
             <g-image class="back-icon" url="icon/back.svg" />
           </button>
           <b-avatar
-            :src="url + '/' + room.user_image"
+            :src="url + '/fileuploadsyuchat/' + room.user_image"
             class="no-image mr-2"
           ></b-avatar>
           <div class="d-flex flex-column justify-content-around">
