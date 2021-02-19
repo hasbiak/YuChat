@@ -32,8 +32,8 @@ YuChat is a website created to send messages to someone in realtime.S This websi
 4. Add .env file at root folder project
 
 ```sh
-VUE_APP_BASE_URL = https://backend-hasbi.fwebdev.online/yuchat [Backend API] + path
-VUE_APP_BASE_SOCKET = https://backend-hasbi.fwebdev.online [Backend API for socket.io]
+VUE_APP_BASE_URL = https://backend-hasbi.fwebdev.online/yuchat //Backend API + path
+VUE_APP_BASE_SOCKET = https://backend-hasbi.fwebdev.online //Backend API Socket.io
 ```
 
 5. Type `npm run serve`
