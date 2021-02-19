@@ -59,7 +59,7 @@
               type="button"
             >
               <span>Logout</span>
-              <g-image class="ml-5" url="icon/back.svg" />
+              <g-image class="ml-5" url="icon/logout.svg" />
             </button>
           </b-dropdown-item>
         </b-dropdown>
