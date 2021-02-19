@@ -2,16 +2,16 @@
   <p align="center">
     <a href="https://yuchat.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/arkbootcamp/week7-web6-intermediateFrontend">Report Bug</a>
+    <a href="https://github.com/hasbiak/YuChat/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arkbootcamp/week7-web6-intermediateFrontend">Request Feature</a>
+    <a href="https://github.com/hasbiak/YuChat/pulls">Request Feature</a>
   </p>
 
-![Image Banner](https://raw.githubusercontent.com/arkbootcamp/week7-web6-intermediateFrontend/main/image_banner.jpg)
+![Image Banner](https://raw.githubusercontent.com/hasbiak/YuChat/main/banner-yuchat.jpg)
 
 ## About The Project
 
-#background_projek.
+YuChat is a website created to send messages to someone in realtime. This website is built with tools such as etc. Vue, Express, js Mysql, Node.js, Socket.io.
 
 ## Built With
 
@@ -22,17 +22,18 @@
 
 1. <a href="https://nodejs.org/en/download/">Node Js</a>
 2. Node_modules `npm install` or `yarn install`
-3. Backend API #nama_projek [`here`](https://github.com/hasbiak/YuChat-Backend.git)
+3. Backend API YuChat [`here`](https://github.com/hasbiak/YuChat-Backend.git)
 
 ## Getting Started
 
-1. Download this Project or you can type `git clone #link_git`
+1. Download this Project or you can type `git clone https://github.com/hasbiak/YuChat.git`
 2. Open app's directory in CMD or Terminal
 3. Type `npm install` or `yarn install`
 4. Add .env file at root folder project
 
 ```sh
-VUE_APP_BASE_URL = [Backend API]
+VUE_APP_BASE_URL = https://backend-hasbi.fwebdev.online/yuchat [Backend API] + path
+VUE_APP_BASE_SOCKET = https://backend-hasbi.fwebdev.online [Backend API for socket.io]
 ```
 
 5. Type `npm run serve`
@@ -42,7 +43,7 @@ VUE_APP_BASE_URL = [Backend API]
 - [Axios](https://www.npmjs.com/package/axios)
 - [Vuex](https://vuex.vuejs.org/)
 
-## License - untuk project individu
+## License
 
 © [Hasbi Alwi Kusmana](https://github.com/hasbiak/)
 
