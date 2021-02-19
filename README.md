@@ -11,7 +11,7 @@
 
 ## About The Project
 
-YuChat is a website created to send messages to someone in realtime. This website is built with tools such as etc. Vue, Express, js Mysql, Node.js, Socket.io.
+YuChat is a website created to send messages to someone in realtime.S This website is built with Vue Js, Express js, Mysql, Node js, Socket.io.
 
 ## Built With
 
