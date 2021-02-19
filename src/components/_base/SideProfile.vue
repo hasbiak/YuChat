@@ -66,7 +66,7 @@
       <div class="mb-5 text-center">
         <routerLink to="/profile-user">
           <b-button size="sm">
-            <!-- <b-icon icon="gear-fill" aria-hidden="true"></b-icon> -->
+            <b-icon icon="gear-fill" aria-hidden="true"></b-icon>
             Edit Profile
           </b-button>
         </routerLink>

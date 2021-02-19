@@ -49,7 +49,7 @@
               type="button"
             >
               <span>Faq Yu Chat</span>
-              <g-image class="ml-5" url="icon/invite.svg" /> </router-link
+              <g-image class="ml-5" url="icon/FAQ.svg" /> </router-link
           ></b-dropdown-item>
 
           <b-dropdown-item class="mb-0 pb-0">
@@ -59,6 +59,7 @@
               type="button"
             >
               <span>Logout</span>
+              <g-image class="ml-5" url="icon/back.svg" />
             </button>
           </b-dropdown-item>
         </b-dropdown>
@@ -189,18 +190,10 @@ export default {
           name: 'Private',
           status: false
         },
-        // {
-        //   name: 'Group',
-        //   status: false
-        // },
         {
           name: 'Friends',
           status: false
         }
-        // {
-        //   name: 'Users',
-        //   status: false
-        // }
       ]
     }
   },

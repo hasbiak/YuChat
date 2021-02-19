@@ -91,7 +91,6 @@
 </template>
 
 <script>
-// import moment from 'moment'
 import io from 'socket.io-client'
 import { mapActions, mapGetters, mapMutations } from 'vuex'
 

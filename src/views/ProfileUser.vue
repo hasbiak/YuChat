@@ -71,7 +71,7 @@
           </b-row>
 
           <b-button size="sm" class="mb-2" @click="modalEdit">
-            <!-- <b-icon icon="gear-fill" aria-hidden="true"></b-icon> -->
+            <b-icon icon="gear-fill" aria-hidden="true"></b-icon>
             Edit Profile
           </b-button>
           <hr />
