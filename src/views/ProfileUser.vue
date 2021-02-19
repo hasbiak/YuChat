@@ -15,7 +15,7 @@
           <b-avatar
             size="10rem"
             class="mt-3"
-            :src="url + '/' + user.user_image"
+            :src="url + '/fileuploadsyuchat/' + user.user_image"
           >
           </b-avatar>
           <div class="edit-image mt-2 mb-4 text-muted">
